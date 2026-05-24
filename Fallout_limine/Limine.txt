@@ -2,9 +2,9 @@ timeout: 15
 default_entry: 2
 remember_last_entry: yes
 
-wallpaper: boot():/background.jpg#<hash string>
+wallpaper: boot():/background.jpg<hash string>
 
-term_font: boot():/PHXEGA8.F14#<hash string>
+term_font: boot():/PHXEGA8.F14<hash string>
 term_font_size: 8x14
 term_font_scale: 2x2
 

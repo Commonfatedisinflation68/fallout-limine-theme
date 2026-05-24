@@ -7,7 +7,7 @@ For v12 of Limine
 Note: This repo only contains additional themeing elements and is not a replacement for Limine.conf. It is assumed that a wokring Limine bootloader is already set up.
 Download the packages:
 ```
-
+git clone https://github.com/Neptune3013/fallout-limine-theme.git
 ```
 NOTE: Make a snapshot beforehand in case you mess up.
 

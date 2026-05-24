@@ -6,10 +6,11 @@ For v12 of Limine
 
 Note: This repo only contains additional themeing elements and is not a replacement for Limine.conf. It is assumed that a working Limine bootloader is already set up.
 
-Download the packages:
+### Download the packages:
 ```
 git clone https://github.com/Neptune3013/fallout-limine-theme.git
 ```
+### Copy files to Boot direcory:
 NOTE: Make a snapshot beforehand in case you mess up.
 
 The following requires Admin mode and assumes the boot directory is /boot.
@@ -17,10 +18,11 @@ The following requires Admin mode and assumes the boot directory is /boot.
 - Copy background.png and PHXEGA8.F14 to Boot directory.
 - Copy the contents of Limine.txt into the beginning of Limine.conf in Boot directory. (it is safer to make a backup of the original limine.conf)
 
-### Not using Secure Boot
+### Edit Limine.conf
+#### If not using Secure Boot
 remove "#<hash string>" in `term_font` and `wallpaper`
 
-### Using Secure Boot
+#### If Using Secure Boot
 Run `sudo b2sum /boot/background.png` and paste it after `wallpaper: boot():/background.jpg#` in Limine.conf
 Run `sudo b2sum /boot/PHXEGA8.F14` and paste it after `term_font: boot():/PHXEGA8.F14#` in Limine.conf
 
@@ -31,5 +33,7 @@ wallpaper: boot():/background.jpg#1654643541984165196841356181561+8463516846516
 term_font: boot():/PHXEGA8.F14#164684651984685416849684165198646541651616168465
 ```
 (DO NOT COPY THE SAMPLE HASH SHOWN HERE, generate your own.)
+
+### Update Bootloader
 
 Run `limine-update`

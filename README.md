@@ -13,8 +13,9 @@ git clone https://github.com/Neptune3013/fallout-limine-theme.git
 NOTE: Make a snapshot beforehand in case you mess up.
 
 The following requires Admin mode and assumes the boot directory is /boot.
-Copy background.png and PHXEGA8.F14 to Boot directory.
-Copy the contents of Limine.txt into the beginning of Limine.conf in Boot directory. (it is safer to make a backup of the original limine.conf)
+
+- Copy background.png and PHXEGA8.F14 to Boot directory.
+- Copy the contents of Limine.txt into the beginning of Limine.conf in Boot directory. (it is safer to make a backup of the original limine.conf)
 
 ### Not using Secure Boot
 remove "#<hash string>" in `term_font` and `wallpaper`

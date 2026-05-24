@@ -33,7 +33,7 @@ wallpaper: boot():/background.jpg#1654643541984165196841356181561+8463516846516
 
 term_font: boot():/PHXEGA8.F14#164684651984685416849684165198646541651616168465
 ```
-(DO NOT COPY THE SAMPLE HASH SHOWN HERE, generate your own.)
+(DO NOT COPY THE SAMPLE HASH SHOWN HERE, generate your own as instructed above.)
 
 If hash string is not added, Limine will switch to default appearnce
 Note: If using Secure boot and hash string is not appended to the ***boot options***, Limine will PANIC. So do not touch that part of Limine. This repo is only dealing with themeing elements of Limine.

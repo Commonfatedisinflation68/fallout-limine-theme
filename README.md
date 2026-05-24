@@ -25,8 +25,8 @@ The following are specific to v12 of Limine (Last tested with v12.3)
 Nothing to change. 
 
 #### If Using Secure Boot
-- Run `sudo b2sum /boot/background.png` and append the output follwoed by a "#" after `wallpaper: boot():/background.jpg` in Limine.conf
-- Run `sudo b2sum /boot/PHXEGA8.F14` and append the output follwoed by a "#" after `term_font: boot():/PHXEGA8.F14` in Limine.conf
+- Run `sudo b2sum /boot/background.png` and append the output followed by a "#" after `wallpaper: boot():/background.jpg` in Limine.conf
+- Run `sudo b2sum /boot/PHXEGA8.F14` and append the output followed by a "#" after `term_font: boot():/PHXEGA8.F14` in Limine.conf
 
 It should look something like this:
 ```
@@ -36,7 +36,7 @@ term_font: boot():/PHXEGA8.F14#164684651984685416849684165198646541651616168465
 ```
 (DO NOT COPY THE SAMPLE HASH SHOWN HERE, generate your own as instructed above.)
 
-If hash string is not added, Limine will switch to default appearance.
+If hash string is not added, Limine will switch to its default appearance.
 
 Note: If using Secure boot and hash string is not appended to the ***boot options***, Limine will PANIC. So do not touch that part of Limine. This repo is only dealing with theming elements of Limine.
 

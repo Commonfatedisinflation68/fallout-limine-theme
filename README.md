@@ -19,6 +19,7 @@ The following requires Admin mode and assumes the boot directory is /boot.
 - Copy the contents of Limine.txt into the beginning of Limine.conf in Boot directory. (it is safer to make a backup of the original limine.conf)
 
 ### Edit Limine.conf
+The following are specific to v12 of Limine (Last testesd with v12.3)
 #### If not using Secure Boot
 remove "#<hash string>" in `term_font` and `wallpaper`
 

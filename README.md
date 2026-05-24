@@ -1,6 +1,7 @@
 # Fallout limine theme
 For v12 of Limine
-<img width="3830" height="2300" alt="IMG_20260524_112935" src="https://github.com/user-attachments/assets/5a4eea8b-72be-43f7-a3fb-53a16c007377" />
+<img width="3550" height="2012" alt="IMG_20260524_124058" src="https://github.com/user-attachments/assets/445803ae-422c-4a30-b07d-ad71bca69e68" />
+
 
 ## Installation
 

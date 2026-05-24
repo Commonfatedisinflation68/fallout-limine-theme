@@ -21,7 +21,7 @@ The following requires Admin mode and assumes the boot directory is /boot.
 ### Edit Limine.conf
 The following are specific to v12 of Limine (Last testesd with v12.3)
 #### If not using Secure Boot
-remove "#<hash string>" in `term_font` and `wallpaper`
+Nothing to change 
 
 #### If Using Secure Boot
 - Run `sudo b2sum /boot/background.png` and paste the output after `wallpaper: boot():/background.jpg#` in Limine.conf
@@ -34,6 +34,9 @@ wallpaper: boot():/background.jpg#1654643541984165196841356181561+8463516846516
 term_font: boot():/PHXEGA8.F14#164684651984685416849684165198646541651616168465
 ```
 (DO NOT COPY THE SAMPLE HASH SHOWN HERE, generate your own.)
+
+If hash string is not added, Limine will switch to default appearnce
+Note: If using Secure boot and hash string is not appended to the ***boot options***, Limine will PANIC. So do not touch that part of Limine. This repo is only dealing with themeing elements of Limine.
 
 ### Update Bootloader
 

@@ -24,8 +24,8 @@ The following are specific to v12 of Limine (Last tested with v12.3)
 Nothing to change 
 
 #### If Using Secure Boot
-- Run `sudo b2sum /boot/background.png` and paste the output after `wallpaper: boot():/background.jpg#` in Limine.conf
-- Run `sudo b2sum /boot/PHXEGA8.F14` and paste it after `term_font: boot():/PHXEGA8.F14#` in Limine.conf
+- Run `sudo b2sum /boot/background.png` and append the output follwoed by a "#" after `wallpaper: boot():/background.jpg` in Limine.conf
+- Run `sudo b2sum /boot/PHXEGA8.F14` and append the output follwoed by a "#" after `term_font: boot():/PHXEGA8.F14` in Limine.conf
 
 It should look something like this:
 ```

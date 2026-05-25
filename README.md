@@ -40,6 +40,9 @@ If hash string is not added, Limine will switch to its default appearance.
 
 Note: If using Secure boot and hash string is not appended to the ***boot options***, Limine will PANIC. So do not touch that part of Limine. This repo is only dealing with theming elements of Limine.
 
+#### Additional config
+I have provided descriptive comments within limine.txt in case you want to modify it to suit your taste. 
+
 ### Update Bootloader
 
 Run `limine-update`

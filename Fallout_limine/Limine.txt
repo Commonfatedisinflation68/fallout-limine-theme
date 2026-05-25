@@ -1,6 +1,6 @@
 #count down timer
 timeout: 15
-#boot the last booted entry on reboot by default once count down ends
+#boot the last booted entry on reboot by default once count down ends (UEFI only) 
 remember_last_entry: yes
 
 #background image of limine

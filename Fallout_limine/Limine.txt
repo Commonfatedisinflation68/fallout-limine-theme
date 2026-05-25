@@ -1,10 +1,12 @@
+#count down timer
 timeout: 15
-default_entry: 2
+#boot the last booted entry on reboot by default once count down ends
 remember_last_entry: yes
 
 wallpaper: boot():/background.jpg
 
 term_font: boot():/PHXEGA8.F14
+#term font size should be corresponding to the term font. do not change this if using the provided font. 
 term_font_size: 8x14
 term_font_scale: 2x2
 #if the font is too large for your screen, remove term_font_scale (it will default to 1x1)

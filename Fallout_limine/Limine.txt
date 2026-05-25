@@ -13,7 +13,7 @@ term_font_size: 8x14
 #if the font is too large for your screen, remove term_font_scale (it will default to 1x1)
 term_font_scale: 2x2
 
-#leave interface branding empty
+#leave interface branding empty, but do not remove the line. 
 interface_branding:
 
 #term background is set to green with 99% transparency to not hide the wallpaper 

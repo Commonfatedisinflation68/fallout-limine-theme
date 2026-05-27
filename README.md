@@ -42,6 +42,7 @@ Note: If using Secure boot and hash string is not appended to the ***boot option
 
 #### Additional config
 I have provided descriptive comments within limine.txt in case you want to modify it to suit your taste.
+
 Reference: [CONFIG.md](https://github.com/limine-bootloader/limine/blob/v12.x/CONFIG.md#limine-configuration-file)
 
 ### Update Bootloader

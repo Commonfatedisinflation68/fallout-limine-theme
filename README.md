@@ -12,7 +12,7 @@ Note: This repo only contains additional theming elements and is not a replaceme
 git clone https://github.com/Neptune3013/fallout-limine-theme.git
 ```
 ### Copy files to Boot direcory:
-NOTE: Make a snapshot beforehand in case you mess up.
+NOTE: Back up the existing files in your boot directory first. On many systems, `/boot` is a separate EFI system partition and may not be included in filesystem snapshots.
 
 The following requires Admin mode and assumes the boot directory is /boot.
 

